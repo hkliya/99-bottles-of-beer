@@ -14,7 +14,7 @@ describe("99 bottles of beer", function(){
         sinon.spy(console, 'log');
     });
 
-    xit("should print lyrics", function(){
+    it("should print lyrics", function(){
         main();
 
         var result = console.log.args[0].toString();
